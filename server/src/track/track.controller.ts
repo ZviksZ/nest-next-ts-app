@@ -1,4 +1,4 @@
-import { Controller } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 
 @Controller('/tracks')
 export class TrackController {
@@ -6,8 +6,9 @@ export class TrackController {
 
   }
 
+  @Get()
   getAll() {
-
+    return 'HELLO23'
   }
 
   getOne() {
