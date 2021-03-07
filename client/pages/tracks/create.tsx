@@ -1,10 +1,11 @@
-import React from 'react';
+import React          from 'react';
+import { MainLayout } from '../../layouts/MainLayout';
 
-const Create = (props) => {
+const Create = () => {
   return (
-    <div>
-
-    </div>
+    <MainLayout>
+      Create
+    </MainLayout>
   );
 };
 
