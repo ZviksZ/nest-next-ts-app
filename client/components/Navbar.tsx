@@ -57,7 +57,7 @@ export const Navbar: React.FC = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Persistent drawer
+            Музыка
           </Typography>
         </Toolbar>
       </AppBar>
