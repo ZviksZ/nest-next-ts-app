@@ -7,10 +7,10 @@ import * as path from 'path';
 
 @Module({
   imports: [
-    TrackModule,
-    FileModule,
     ServeStaticModule.forRoot({rootPath: path.resolve(__dirname, 'static')}),
     MongooseModule.forRoot('mongodb+srv://viks2332:admin@cluster0.urivg.mongodb.net/music-platform?retryWrites=true&w=majority'),
+    TrackModule,
+    FileModule,
   ],
 })
 export class AppModule {
